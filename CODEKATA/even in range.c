@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int start,end,i;
 scanf("%d%d",&start,&end);
@@ -10,4 +10,5 @@ for(i=start+1;i<end;i++)
 		printf("%d\n",i);
 	}
 }
+	return 0;
 }
