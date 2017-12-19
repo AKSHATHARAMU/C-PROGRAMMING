@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 	int n=5,sum=0,i;
 	for(i=1;i<=n;i++)
@@ -7,4 +7,5 @@ void main()
 		sum=sum+i;
 	}
 	printf("%d",sum);
+return 0;
 }
