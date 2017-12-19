@@ -1,8 +1,7 @@
 #include<stdio.h>
-void main()
+int main()
 {
 	int n;
-	printf("Enter the number to check");
 	scanf("%d",&n);
 	if(n%2==0)
 	{
@@ -10,4 +9,5 @@ void main()
 	}
 	else
 	printf("\nOdd");
+return 0;
 }
