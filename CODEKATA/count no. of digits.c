@@ -1,8 +1,7 @@
 #include<stdio.h>
-void main()
+int main()
 {
 	int c=0,n;
-	printf("Enter the number");
 	scanf("%d",&n);
 	while(n!=0)
 	{
@@ -10,5 +9,6 @@ void main()
 		c++;
 	}
 	printf("%d",c);
+return 0;
 }
 		
