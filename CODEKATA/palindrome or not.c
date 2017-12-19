@@ -2,7 +2,6 @@
 void main()
 {
 int original,reverse=0,n,rem;
-printf("Enter the number to reverse");
 scanf("%d",&n);
 original=n;
 while(n!=0)
