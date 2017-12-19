@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int c=0,n,i;
 printf("Enter the number to check");
@@ -15,4 +15,5 @@ if(c==0)
 printf("\n Prime number");
 else
 printf("\n not a prime number");
+return 0;
 }
