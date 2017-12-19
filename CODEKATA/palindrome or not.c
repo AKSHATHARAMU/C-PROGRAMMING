@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int original,reverse=0,n,rem;
 scanf("%d",&n);
@@ -14,4 +14,5 @@ if(original==reverse)
 printf("\nPalindrome");
 else
 printf("\nNot Palindrome");
+	return 0;
 } 
